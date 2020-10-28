@@ -1,6 +1,7 @@
 # TeachMePythonLikeIm5
 *You are welcome to contribute to this repo. See the [**CONTRIBUTING.md**](./CONTRIBUTING.md) for more info*
 
+![TeachMePythonLikeIm5](https://inspirezone.tech/wp-content/uploads/2020/10/TeachMePythonLikeIm5-1024x512.png)
 ## About this repo
 
 A collection of super beginner friendly tutorials and challenges to teach the python programming language. 
