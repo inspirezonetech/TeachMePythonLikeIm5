@@ -3,7 +3,7 @@
 # ------------------------------------------------------------------------------------
 
 # len is used to find the amount of items in an object (ie an array)
-array = ["1","2","3"]
+array = ["1", "2", "3"]
 # the len can be printed
 print("The length of the array is: ", len(array))
 
