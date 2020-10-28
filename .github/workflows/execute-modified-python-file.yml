@@ -1,0 +1,40 @@
+name: execute-modified-python-file
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  job-execute-python:
+    runs-on: ubuntu-latest
+  
+    steps:
+  
+    # checkout repo
+    - uses: actions/checkout@v2
+    
+    # setup python
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    
+    # install requirements.txt if it exists
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    
+    #use action to get file that changed
+    - uses: lots0logs/gh-action-get-changed-files@2.1.4
+      with:
+       token: ${{ secrets.GITHUB_TOKEN }}
+
+    # test if modified file will run
+    - name: Execute file!
+      run: |
+        echo "job: running script to execute modified file:"
+        ./.github/workflows/run-modified-python.sh
+        echo "job: Done"
