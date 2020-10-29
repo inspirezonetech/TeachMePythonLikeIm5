@@ -52,7 +52,7 @@ print("Number for Month {name} is {value}".format(name=feb_elem.name,
 #     SATURDAY = 'WHITE'
 #     SUNDAY = 'BLUE'
 
-# if ColorWeek.MONDAY.VALUE == ?:
+# if ColorWeek.MONDAY.value == ?:
 #     print("Color for Monday is RED")
 
 # # Print the day when color is GREEN
