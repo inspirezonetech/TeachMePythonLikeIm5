@@ -1,9 +1,22 @@
 # ------------------------------------------------------------------------------------
-# Tutorial: brief description of tutorial content
+# Tutorial: how to declare and call a for loop
 # ------------------------------------------------------------------------------------
 
-# Code here explaining concept with comments to guide
+# List of numbers
+numbers = [6, 4, 33, 5, 434, 4, 521]
+
+# variable to store the sum
+sum = 0
+
+# iterate over the list
+for val in numbers:
+	sum = sum+val
+	
+#print the variables on the list
+print("The sum is", sum)
 
 # ------------------------------------------------------------------------------------
-# Challenge: list challenges to be completed here. minimum of one challenge per tutorial
+# Challenge: Calculate the values of a given list using for loop
 # ------------------------------------------------------------------------------------
+
+
