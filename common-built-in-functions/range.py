@@ -28,4 +28,3 @@ y = range(n, 0, -2)  # goes from n to 1 with inc of -2
 # ------------------------------------------------------------------------------------
 # Challenge: list challenges to be completed here. minimum of one challenge per tutorial
 # ------------------------------------------------------------------------------------
-
