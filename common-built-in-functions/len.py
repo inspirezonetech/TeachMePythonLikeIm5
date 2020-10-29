@@ -14,6 +14,6 @@ textlen = len(text)
 print("The amount of characters in the variable text is: ", textlen)
 
 # ------------------------------------------------------------------------------------
-# Challenge: 1. Create an array with your own data and get the length of it
-#            2. *assuming you have done the input tutorial* Create a program which asks for someones name and checks the length of it.
+# Challenge: 1. create an array with your own data and get the length of it.
+#            2. create a program that checks the length of the string "Hello World!".
 # ------------------------------------------------------------------------------------
