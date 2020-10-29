@@ -16,7 +16,7 @@ for letter in 'Python':
 for y in range(2, 10):
     for x in range(2, y):
         if y % x == 0:
-            print('{} equals {} * {}'.format(y, x, y/x))
+            print('{} equals {} * {}'.format(y, x, y / x))
             break     # the if statement is exited, but the for loops are still active
         else:
             print(y, 'is a prime number')
