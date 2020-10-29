@@ -1,9 +1,10 @@
 # ------------------------------------------------------------------------------------
-# Tutorial: brief description of tutorial content
+# Tutorial: using the input built in function
 # ------------------------------------------------------------------------------------
 
-# Code here explaining concept with comments to guide
+# input is used to allow a user to input text into a variable.
+test = input("You can also put text to be printed in the brackets.")
 
 # ------------------------------------------------------------------------------------
-# Challenge: list challenges to be completed here. minimum of one challenge per tutorial
+# Challenge: 1. create a program that asks for someones name, then prints it.
 # ------------------------------------------------------------------------------------
