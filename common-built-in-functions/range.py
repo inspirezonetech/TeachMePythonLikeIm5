@@ -15,9 +15,9 @@
 
 n = 5
 
-x = range(0,n,1)  # goes from 0 to n-1 with inc of 1 equal to range(n)
+x = range(0, n, 1)  # goes from 0 to n-1 with inc of 1 equal to range(n)
 
-y = range(n,0,-2)  # goes from n to 1 with inc of -2 
+y = range(n, 0, -2)  # goes from n to 1 with inc of -2
 
 # So range deals with both increament as well as decreament hence very useful while calling for loops
 
