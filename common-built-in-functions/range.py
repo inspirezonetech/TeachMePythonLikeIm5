@@ -25,3 +25,6 @@ y = range(n, 0, -2)  # goes from n to 1 with inc of -2
 # ------------------------------------------------------------------------------------
 # Challenge: list challenges to be completed here. minimum of one challenge per tutorial
 # ------------------------------------------------------------------------------------
+
+# Lets give a challenge to try out what we learnt:
+# Like what we need to do is compute sum of first n numbers by using the range function and not the formula.
