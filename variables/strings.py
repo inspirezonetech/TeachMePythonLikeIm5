@@ -16,7 +16,7 @@ print(string1 + string2)    # This will print 'This is a stringThis is also a st
 
 # A string in Python is like an array of characters in C
 print(string1[6])           # This will print 's'
-print(string2[8:11])        # This will print 'also'
+print(string2[8:11])        # This will print 'als'
 
 # If you wish to print a string with other variables amoung it, simply use a formatter
 a = 5
