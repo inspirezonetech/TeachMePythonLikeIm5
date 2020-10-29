@@ -6,17 +6,17 @@
 
 t = 0
 while t < 10:
-	t = t + 2
-	print(t)
+    t = t + 2
+    print(t)
 
 # Also we can use an |else| stance with the while loop as if the condition don't satisfy and we need a last statement to be executed after the while loop is finished:
 
 t = 0
 while t < 10:
-	t = t + 2
-	print(t)
+    t = t + 2
+    print(t)
 else:
-	print("loop finished")
+    print("loop finished")
 
 # So above loop will work till the specified condition is satisfied hence will run about 5 times in this case
 
