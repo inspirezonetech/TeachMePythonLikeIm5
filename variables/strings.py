@@ -2,7 +2,7 @@
 # Tutorial: brief description of tutorial content
 # ------------------------------------------------------------------------------------
 
-# In Python, strings are defined by enclosing charaters in either single quotation 
+# In Python, strings are defined by enclosing charaters in either single quotation
 # marks or double quotation marks
 
 string1 = 'This is a string'
@@ -23,7 +23,7 @@ a = 5
 b = 10
 print('This is how we print the vaiable a = {} and b = {} with ease'.format(a, b))
 
-# There are many tricks to you can do with strings and other operators when you get 
+# There are many tricks to you can do with strings and other operators when you get
 # more comfortable with them!
 
 # ------------------------------------------------------------------------------------
@@ -33,4 +33,4 @@ print('This is how we print the vaiable a = {} and b = {} with ease'.format(a, b
 # 2. Create a string & find the length of it.
 # 3. Print a string with different predefined variables in it.
 # 4. Write a program that adds 'ing' to every string.
-# 5. Write a program that replaces every 's' in a string with a '$' 
+# 5. Write a program that replaces every 's' in a string with a '$'
