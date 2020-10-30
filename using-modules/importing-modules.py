@@ -25,6 +25,6 @@ print(result_sum)
 print(result_multiplication)
 
 # ------------------------------------------------------------------------------------
-# Challenge: Create a calculator module, with the 4 basics functions 
+# Challenge: Create a calculator module, with the 4 basics functions
 # sum, multiply, divide, substract
 # ------------------------------------------------------------------------------------
