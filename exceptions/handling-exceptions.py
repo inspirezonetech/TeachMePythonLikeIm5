@@ -3,8 +3,6 @@
 
 # ------------------------------------------------------------------------------------
 
-# Code here explaining concept with comments to guide
-
 # You can handle exceptions in a try / except blocks
 # The program executes the code in the try block, if something goes wrong and an exception is raised
 # It will be handled by the except block, if not the except section will be ignored.
@@ -23,5 +21,5 @@ while a > 0:
         raise
 
 # ------------------------------------------------------------------------------------
-# Challenge: Create a try / except block and raise a custom exception when the value received is not number
+# Challenge: Create a try / except block and raise a custom exception when the value received is not a number
 # ------------------------------------------------------------------------------------
