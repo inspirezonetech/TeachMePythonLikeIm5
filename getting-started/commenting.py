@@ -7,5 +7,5 @@
 # This is a comment. Yay!
 
 # ------------------------------------------------------------------------------------
-# Challenge: 1. create a simple hello world program and comment your name somewhere in the program.
+# Challenge: 1. using comments make this code say "Hello": print("Hello") + ("World")
 # ------------------------------------------------------------------------------------
