@@ -20,11 +20,8 @@ x = range(0, n, 1)  # goes from 0 to n-1 with inc of 1 equal to range(n)
 y = range(n, 0, -2)  # goes from n to 1 with inc of -2
 
 # So range deals with both increament as well as decreament hence very useful while calling for loops
-
-
-# Lets give a challenge to try out what we learnt:
-# Like what we need to do is compute sum of first n natural numbers by using the range function and not the formula.
+# Also range() returns a sequence of numbers included in | range(start,stop,step) |
 
 # ------------------------------------------------------------------------------------
-# Challenge: list challenges to be completed here. minimum of one challenge per tutorial
+# Challenge: Take user based input n and then compute the sum of first n natural numbers and print the sum.
 # ------------------------------------------------------------------------------------
