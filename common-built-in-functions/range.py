@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------------
-# Tutorial: Range() built-in function in Python 
+# Tutorial: Range() built-in function in Python
 # ------------------------------------------------------------------------------------
 
 # Code here explaining concept with comments to guide
