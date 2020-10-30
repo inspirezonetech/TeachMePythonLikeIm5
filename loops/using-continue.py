@@ -9,11 +9,10 @@
 # Also note that continue keyword is only used in the case of loops.
 
 
-for x in range(5): 
+for x in range(5):
     if x == 3:
         continue
     print(x)
-    
 
 # In above example as x approaches the value 3 (as in condition) continue statement is trigerred an thus when we look at the output of the code, x=3 is not printed.
 # We can conclude that after the condition achieved our code was not given permission to increase the val of t.
