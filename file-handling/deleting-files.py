@@ -8,12 +8,15 @@ def delete_file(filename):
     try:
         os.remove(filename)  # deletes filename
         print(f'{filename} has been deleted')  # prints out success message
-    except (OSError, EOFError):
-        print('No such file in directory!')  # prints error message
+    except OSError:
+        print('No such file in directory!')  # prints error message when file not found
 
 def main():
-    # get the filename from the user
-    filename = input('Please enter name (with type) of the file you would like to remove: ')
+    try:
+        # get the filename from the user
+        filename = input('Please enter name (with type) of the file you would like to remove: ')
+    except EOFError:
+        return filename == ''  # If error, assign file name string to null
 
     # call delete function from above and pass in the filename
     delete_file(filename)
