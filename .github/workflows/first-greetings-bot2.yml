@@ -1,0 +1,13 @@
+name: greeter
+
+on: [pull_request]
+
+jobs:
+  job-greeter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Greeter"
+        uses: JJ/pr-greeting-action@releases/v0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          pr-message: "Well done @${{ github.actor }} on creating your first pull request on this repo! Our maintainers will review this soon. In the mean time don't forget to give us a star :star:"
