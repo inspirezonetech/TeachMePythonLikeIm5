@@ -12,11 +12,12 @@ def delete_file(filename):
         print('No such file in directory!')  # prints error message when file not found
 
 def main():
+    filename = None
     try:
         # get the filename from the user
         filename = input('Please enter name (with type) of the file you would like to remove: ')
     except EOFError:
-        return filename == ''  # If error, assign file name string to null
+        return filename
 
     # call delete function from above and pass in the filename
     delete_file(filename)
