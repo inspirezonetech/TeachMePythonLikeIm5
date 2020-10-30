@@ -4,8 +4,10 @@
 # ------------------------------------------------------------------------------------
 
 # You can handle exceptions in a try / except blocks
-# The program executes the code in the try block, if something goes wrong and an exception is raised
-# It will be handled by the except block, if not the except section will be ignored.
+# The program executes the code in the try block,
+# if something goes wrong an exception is raised
+# It will be handled by the except block,
+# if not the except section will be ignored.
 
 a = 2
 
@@ -14,7 +16,7 @@ while a > 0:
         a = a - 1
         print("Working!!")
         if a == 0:
-            #Here a custom exception is raised if a is equal to 0
+            # Here a custom exception is raised if a is equal to 0
             raise ValueError("a cannot be 0")
     except ValueError:
         print('Something went wrong')
