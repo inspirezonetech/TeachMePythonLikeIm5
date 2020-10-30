@@ -20,14 +20,14 @@ else:
 
 # So above loop will work till the specified condition is satisfied hence will run about 5 times in this case
 
-# Code here explaining concept with comments to guide
-# Now as we have learnt about while loops
-# We can try and do a challenge for some fun then
+
 # Reverse the Number:
 # What we need to do is take n as input and print the reversed n.
-# Example:
-# Input - 2345
-# Output - 5432
+# 
+# 
+# 
 # ------------------------------------------------------------------------------------
-# Challenge: list challenges to be completed here. minimum of one challenge per tutorial
+# Challenge: Take a user input n and find and print the reverse of the number. Also you don't have to print trailing zeroes while reversing.
+#            Example: 1.) Input - 2345 , Output - 5432
+#                     2.) Input - 2480 , Output - 842
 # ------------------------------------------------------------------------------------
