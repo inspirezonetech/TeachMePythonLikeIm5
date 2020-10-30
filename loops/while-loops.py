@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------------
-# Tutorial: brief description of tutorial content
+# Tutorial: While Loops in Python
 # ------------------------------------------------------------------------------------
 # Here we will look into how to use one of the loops - while loop to generate desired outputs with certain condition
 # Syntax: After while we pass the condition to be checked
