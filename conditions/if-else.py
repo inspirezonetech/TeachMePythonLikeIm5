@@ -23,7 +23,7 @@ else:
 
 # ------------------------------------------------------------------------------------
 # Challenge: Fix the code below to print truly statements
-# Don't change the values, change the replace_this to right statements
+# Don't change the values, change the replace_me to right statements
 # ------------------------------------------------------------------------------------
 street_max_speed = 100
 street_min_speed = 50
