@@ -7,7 +7,7 @@
 
 age = 13
 if age >= 12:
-    print("Yes, you can that game.")
+    print("Yes, you can play that game.")
 else:
     print("Lets find a better game to you.")
 
