@@ -1,9 +1,19 @@
 # ------------------------------------------------------------------------------------
-# Tutorial: brief description of tutorial content
+# Tutorial: using the len built in function
 # ------------------------------------------------------------------------------------
 
-# Code here explaining concept with comments to guide
+# len is used to find the amount of items in an object (ie an array)
+array = ["1", "2", "3"]
+# the len can be printed
+print("The length of the array is: ", len(array))
+
+# len can also be used to find the amount of characters in a string.
+text = "text"
+# the len can also be stored in a variable
+textlen = len(text)
+print("The amount of characters in the variable text is: ", textlen)
 
 # ------------------------------------------------------------------------------------
-# Challenge: list challenges to be completed here. minimum of one challenge per tutorial
+# Challenge: 1. create an array with your own data and get the length of it.
+#            2. create a program that checks the length of the string "Hello World!".
 # ------------------------------------------------------------------------------------
