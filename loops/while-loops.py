@@ -21,11 +21,6 @@ else:
 # So above loop will work till the specified condition is satisfied hence will run about 5 times in this case
 
 
-# Reverse the Number:
-# What we need to do is take n as input and print the reversed n.
-# 
-# 
-# 
 # ------------------------------------------------------------------------------------
 # Challenge: Take a user input n and find and print the reverse of the number. Also you don't have to print trailing zeroes while reversing.
 #            Example: 1.) Input - 2345 , Output - 5432
