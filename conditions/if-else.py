@@ -29,7 +29,7 @@ street_max_speed = 100
 street_min_speed = 50
 car_speed = 70
 
-replace_me = false
+replace_me = False
 if replace_me:
     print("Lower your speed or you will be penalized")
 elif replace_me:
