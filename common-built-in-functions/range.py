@@ -23,10 +23,10 @@ y = range(n, 0, -2)  # goes from n to 1 with step size of -2
 
 # Example:
 
-t = range(1,11)
+t = range(1, 11)
 for number in t:
-	if number%2==0:
-		print(number)
+    if number % 2 == 0:
+        print(number)
 
 
 # The above example gets us all the even numbers within the range [1,10].
@@ -37,5 +37,5 @@ for number in t:
 # ------------------------------------------------------------------------------------
 # Challenge: Take user based input n and then compute the sum of first n natural numbers(1,2,3,4....,n) and print the sum. Use the range function only and not the direct formula.
 # Example: Input - 5
-#          Output - 15 
+#          Output - 15
 # ------------------------------------------------------------------------------------
