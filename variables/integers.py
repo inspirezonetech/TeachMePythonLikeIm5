@@ -5,22 +5,22 @@
 # In python, numbers without decimals are stored using the int datatype
 number1 = 10  # We can directly assign a number to a variable
 # We can check the datatype of a variable using the type function. So let's verify if the variable number1 is an int(integer) or not
-print(type(number1))
+print(f"Type of number1 is",type(number1))
 # We can see that Python is smart enough to make the variable number as an int. This is called Dynamically typed.
 
 # We can also declare an integer using the int() function
 number2 = int(20)
 # We can see that the variable number2 is an integer too. This is called Static typed as we are giving the type
-print(type(number2))
+print(f"Type of number2 is",type(number1))
 
 # We can also convert from other datatype to integer using int()
 number3 = int("30")
 # Python converts the string to an integer.
-print(type(number3))
+print(f"Type of number3 is",type(number1))
 
 # Integers can hold negative numbers too
 number4 = -10
-print(type(number4))
+print(f"Type of number4 is",type(number1))
 
 
 # Operations on int
