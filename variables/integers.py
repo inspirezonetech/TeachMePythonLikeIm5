@@ -37,7 +37,7 @@ print(f'{number3} - {number2} is {diff}')
 mul = number1 * number2
 print(f'{number1} * {number2} is {mul}')
 
-# Division: Two integers can be added using the / sign
+# Division: Two integers can be divided using the / sign
 div = number3 / number1
 # Remember the answer is a decimal even if the numbers are perfectly divisible
 print(f'{number3} / {number1} is {div}')
