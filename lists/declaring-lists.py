@@ -17,12 +17,12 @@ print(lst[0])  # this will print first element of the list that is [1]
 # negative index
 print(lst[-1])  # output: ["hello"]
 # there are some in-built function available in the python for the list, like
-#lst.sort()  # this will arrange the element in the ascending order.
+lst.sort()  # this will arrange the element in the ascending order.
 lst.append(9)  # this will add element in the end of the list.
 lst.remove(9)  # this will remove the element 9 from the list.
 lst.insert(1, 9)   # this will add insert the element 9 at index place 1.
 del lst[0:2]  # this will delete the element in the range 0-2.
-lst.count()   # this will return the no of argument passes.
+lst.count(9)   # this will return the no of argument passes.
 # ------------------------------------------------------------------------------------
 # Challenge: list challenges to be completed here. minimum of one challenge per tutorial
 # 1. take input from the user into the list
