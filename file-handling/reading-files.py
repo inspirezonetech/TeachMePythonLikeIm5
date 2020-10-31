@@ -4,7 +4,7 @@
 
 # Taking the file we would like to read (Similar to selecting a book you want to read)
 # Make sure you give the full path in case the file is not present in the same location as the program
-filename = ""  #Give your file name here
+filename = ""  # Give your file name here
 # filename = input("Enter the file name you would like to read: ")  # uncomment if you want to give the file name while running
 
 try:
