@@ -9,9 +9,9 @@ lst = []
 # list of integer
 lst = [1, 2, 3, 4, 5]
 # list with various data type
-lst=[1, "hello", 3.55]
+lst = [1, "hello", 3.55]
 # nested list
-lst=[1, [8, 3, 4, 5], "hello"]
+lst = [1, [8, 3, 4, 5], "hello"]
 # retrieval of elements using list index
 print(lst[0])  # this will print first element of the list that is [1]
 # negative index
