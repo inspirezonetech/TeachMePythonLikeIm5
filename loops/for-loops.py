@@ -5,7 +5,7 @@
 # We use for loops when we have to access elements in a DS or while working within a range of numbers.
 # One of the loops which helps us to iterate through a particular DS.
 
-anime = ['Luffy','Naruto','Zoro','Midoriya','Lelouch','Levi','Natsu','Sanji','Shanks','Kakashi','Kageyama']
+anime = ['Luffy', 'Naruto', 'Zoro', 'Midoriya', 'Lelouch', 'Levi', 'Natsu', 'Sanji', 'Shanks', 'Kakashi', 'Kageyama']
 
 # What we have to do is print each of these names in list anime
 
@@ -14,12 +14,12 @@ for name in anime:
 
 # This will help you to access and print each of the names in the list.
 
-# Alternate 
+# Alternate
 
 length = len(anime)
 
 for i in range(length):
-	print(anime[i])
+    print(anime[i])
 
 # Also there is an |else| stance for each of the loops so here it is for for-loop:
 
