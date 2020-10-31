@@ -4,13 +4,13 @@
 
 def read_file(filename):
     try:
-        fr = open(filename, mode="r") # Creates a file pointer to the given file name and the mode 'r' opens the file in read mode
-        fcontents = fr.read() # Reads all the contents of the file into the variable fcontents as a single string
+        fr = open(filename, mode="r")  # Creates a file pointer to the given file name and the mode 'r' opens the file in read mode
+        fcontents = fr.read()  # Reads all the contents of the file into the variable fcontents as a single string
         # fr.seek(0) # Moves the file pointer to the start of the file
         # fcontents_by_line = fr.readlines() # Reads the contents of the file line by line and stores them as a list fcontents_by_line
         print(f"The contents of the file {filename}:")
         print(fcontents)
-    except:
+    except FileNotFoundError:
         print('File not found!')
 
 def main():
