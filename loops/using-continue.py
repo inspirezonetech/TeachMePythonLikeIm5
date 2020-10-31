@@ -10,13 +10,15 @@
 
 # Note: continue keyword is only used within loops.
 
+# Example:
 
 for x in range(5):
     if x == 3:
         continue
     print(x)
 
-# Example:
+# In above example as x approaches the value 3 (as in condition) continue statement is trigerred an thus when we look at the output of the code, x=3 is not printed.
+# Also there are times we don't want to do anything in a particular condition so what we do is just use the continue statement to keep the iteration going on.
 
 for x in range(1, 16):
     if x % 5 == 0:
@@ -26,11 +28,7 @@ for x in range(1, 16):
 # Above example states that when there will be a number in the range which is a multiple of 5 so it will not execute print statement
 # Hence, our output will contain all elements in the range which are not multiple of 5.
 
-# In above example as x approaches the value 3 (as in condition) continue statement is trigerred an thus when we look at the output of the code, x=3 is not printed.
-# We can conclude that after the condition achieved our code was not given permission to increase the val of t.
-# Also there are times we don't want to do anything in a particular condition so what we do is just use the continue statement to keep the iteration going on.
-
-# Basically, the code below the continue keyword is considered only if the above condition does not satisfy else the code will process the request and exclude the lines of code below continue.
+# Basically, the code above the continue keyword is considered only if the above condition does not satisfy else the code will process the request and exclude the lines of code below continue.
 
 # ------------------------------------------------------------------------------------
 # Challenge: Take user input n and print all the odd natural numbers  ( where natural numbers is the list - [1,2,3,4,5...,n] ) upto n using continue keyword.
