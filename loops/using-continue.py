@@ -5,14 +5,26 @@
 # It allows us to leave some piece of code when we do not need it or some fixed condition is not met.
 # It is just a keyword which allows us to handle our code in specific conditions.
 # for example if we say that a particular var has achieved a particular val then we don't proceed with the piece of code after the continue keyword.
+
 # Note : We also use it when we have some base cases for our test cases while doing competitive programming.
-# Also note that continue keyword is only used in the case of loops.
+
+# Note: continue keyword is only used within loops.
 
 
 for x in range(5):
     if x == 3:
         continue
     print(x)
+
+# Example:
+
+for x in range(1, 16):
+    if x % 5 == 0:
+        continue
+    print(x)
+
+# Above example states that when there will be a number in the range which is a multiple of 5 so it will not execute print statement
+# Hence, our output will contain all elements in the range which are not multiple of 5.
 
 # In above example as x approaches the value 3 (as in condition) continue statement is trigerred an thus when we look at the output of the code, x=3 is not printed.
 # We can conclude that after the condition achieved our code was not given permission to increase the val of t.
@@ -21,5 +33,7 @@ for x in range(5):
 # Basically, the code below the continue keyword is considered only if the above condition does not satisfy else the code will process the request and exclude the lines of code below continue.
 
 # ------------------------------------------------------------------------------------
-# Challenge: Take user input n and print all the odd natural numbers upto n using continue keyword.
+# Challenge: Take user input n and print all the odd natural numbers  ( where natural numbers is the list - [1,2,3,4,5...,n] ) upto n using continue keyword.
+#            Example: Input - 18
+#                     Output - { 1, 3, 5, 7, 9, 11, 13, 15, 17 } [ Just consider the values not the pattern ]
 # ------------------------------------------------------------------------------------
