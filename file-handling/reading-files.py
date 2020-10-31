@@ -4,8 +4,9 @@
 
 # Taking the file we would like to read (Similar to selecting a book you want to read)
 # Make sure you give the full path in case the file is not present in the same location as the program
-# filename = input("Enter the file name you would like to read: ")
-filename = ""
+filename = ""  #Give your file name here
+# filename = input("Enter the file name you would like to read: ")  # uncomment if you want to give the file name while running
+
 try:
     # Since we know which file to read let's open it first (We have to open the book first so that we can read)
     fread = open(filename, mode="r")  # Here the r specifies we want to read the file
