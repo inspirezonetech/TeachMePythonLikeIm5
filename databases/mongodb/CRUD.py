@@ -6,10 +6,9 @@ CRUD stands for CREATE,READ,UPDATE,DELETE.
 # ------------------------------------------------------------------------------------
 # Importing Modules
 from pymongo import MongoClient
-import pymongo
 # Establish connection
-from pymongo import MongoClient
-# We can pass our host details in Mongoclient() function in 2 ways, also by default it is on "Localhost" and 27017 Port.
+# We can pass our host details in Mongoclient() function in 2 ways.
+# Also by default it is on "Localhost" and 27017 Port.
 # client=MongoClient("Localhost",27017)
 # client=MongoClient("mongodb://localhost:27107")
 client = MongoClient()
@@ -29,7 +28,8 @@ record = {
 }
 # Inserting this document in collection
 insertion = collection.insert_one(record)
-# Whenever we insert document is collection it by default takes ID as one of its field. We can also give ID manually to a document.
+# Whenever we insert document it by default takes ID as one of its field.
+# We can also give ID manually to a document.
 if insertion.acknowledged:
     print("Document is added and ID is: ", insertion.inserted_id)
 # ---READ--- (Read documents from collection)
@@ -59,7 +59,8 @@ for x in collection.find():
 # ------------------------------------------------------------------------------------
 # Challenge: Use this constraints and perform CRUD operations.
 """
-1. Create a document with following fields: name,date(current),age,favourite_programming_language.
+1. Create a document with following fields:
+name,date(current),age,favourite_programming_language.
 2. Read values from collection for those whose "favourite language is Python".
 3. Update values for those whose age is greater than 30 and change it to 21
 4. Delete the records of those whose favourite programming language is "C/C++".
