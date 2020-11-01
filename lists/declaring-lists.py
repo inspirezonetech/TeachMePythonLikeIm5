@@ -25,5 +25,5 @@ del lst[0:2]  # this will delete the element in the range 0-2.
 lst.count(9)   # this will return the no of argument passes.
 # ------------------------------------------------------------------------------------
 # Challenge: list challenges to be completed here. minimum of one challenge per tutorial
-# 1. take input from the user into the list
+# 1. Take input from the user into the empty list using input() function.
 # ------------------------------------------------------------------------------------
