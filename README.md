@@ -33,30 +33,29 @@ Each file contains:
 |Assigning                                  | [assigning.py](operators/assigning.py)                         |
 |Comparison                                 | [comparison.py](operators/comparison.py)                       |
 | **Lists**                                 | 
-|How to alter a list                        | [alterning-lists.py](lists/alterning-lists.py)                 | 
+|How to alter a list                        | [alterning-lists.py](lists/altering-lists.py)                  | 
 |How to declare a list                      | [declaring-lists.py](lists/declaring-lists.py)                 | 
 |How to index a list                        | [indexing-lists.py](lists/indexing-lists.py)                   | 
 | **Conditions**                            | 
-| How to make a condition                   | [if-else.py](conditions/if-else.py)                            |
+| How to make conditions                    | [if-else.py](conditions/if-else.py)                            |
 | **Loops**                                 | 
-|How for-loop work                          | [for-loops.py](loops/for-loops.py)                             |
-|How while-loop work                        | [while-loops.py](loops/while-loops.py)                         |
+|How for-loop works                         | [for-loops.py](loops/for-loops.py)                             |
+|How while-loop works                       | [while-loops.py](loops/while-loops.py)                         |
 |How to break in a loop                     | [using-break.py](loops/using-break.py)                         | 
 |How to continue in a loop                  | [using-continue.py](loops/using-continue.py)                   |
 | **Functions**                             | 
 |How to declare and call functions          | [using-functions.py](functions/using-functions.py)             |  
-| **Common-build-in functions**             | 
-|How enumerate work                         | [enumerate.py](common-build-in-functions/enumerate.py)         |  
-|How inupt work                             | [input.py](common-build-in-functions/input.py)                 | 
-|How join work                              | [join.py](common-build-in-functions/join.py)                   |
-|How len work                               | [len.py](common-build-in-functions/len.py)                     | 
-|How range work                             | [range.py](common-build-in-functions/range.py)                 | 
-|How replace work                           | [replace.py](common-build-in-functions/replace.py)             | 
-| **Exceptions**                            | [using-functions.py](functions/using-functions.py)             |  
-|How exception work                         | [exceptions.py](exceptions/handling-exceptions.py)             |  
+| **Common-built-in functions**             | 
+|How enumerate works                        | [enumerate.py](common-built-in-functions/enumerate.py)         |  
+|How inupt works                            | [input.py](common-built-in-functions/input.py)                 | 
+|How join works                             | [join.py](common-built-in-functions/join.py)                   |
+|How len works                              | [len.py](common-built-in-functions/len.py)                     | 
+|How range works                            | [range.py](common-built-in-functions/range.py)                 | 
+|How replace works                          | [replace.py](common-built-in-functions/replace.py)             | 
+| **Exceptions**                            |                                                                 
+|How exception works                        | [exceptions.py](exceptions/handling-exceptions.py)             |  
 | **Using modules**                         | 
 |How modules work                           | [importing-modules.py](using-modules/importing-modules.py)     | 
-|How to use an image                        | [image.py](using-modules/image.py)                             | 
 |How pip works                              | [installing-with-pip.py](using-modules/installing-with-pip.py) | 
 | **File handling**                         | 
 |How to delete a file                       | [deleting-files.py](file-handling/deleting-files.py)           | 
