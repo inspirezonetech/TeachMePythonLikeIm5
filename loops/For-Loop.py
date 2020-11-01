@@ -14,9 +14,8 @@ for val in numbers:
 	
 #print the variables on the list
 print("The sum is", sum)
-
+exit()
 # ------------------------------------------------------------------------------------
-# Challenge: Calculate the values of a given list using for loop
+# Challenge: create a for loop that have list and print all the
+# variables on the list
 # ------------------------------------------------------------------------------------
-
-
