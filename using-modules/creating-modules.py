@@ -2,11 +2,10 @@
 # Tutorial: Importing Modules in Python
 # ------------------------------------------------------------------------------------
 
-# Create a module in another file with the functions or data you need
-# Also you can import modules from other libraries with pip
+# The file "calculator.py" which is located in the same directory as this file is an example of a module
+
 # In this line you import the module,
 # With the keyword import and the name of your module
-
 import calculator
 
 a = 2
@@ -25,6 +24,12 @@ print(result_sum)
 print(result_multiplication)
 
 # ------------------------------------------------------------------------------------
-# Challenge: Create a calculator module, with the 4 basics functions
-# sum, multiply, divide, substract
+# Challenge: (Edits needed to "calculator.py" which is located in the same directory as this file)
+# Add to the "calculator.py" module two more functions: divide_two_numbers, subtract_two_numbers.
+# Then call the new functions, Passing in two integers and print the result
 # ------------------------------------------------------------------------------------
+
+# Here call the divide_two_numbers function you created in "calculator.py"
+
+
+# Here call the subtract_two_numbers function you created in "calculator.py"
