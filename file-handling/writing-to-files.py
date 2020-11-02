@@ -14,7 +14,7 @@ fwrite = open(filename, mode="w")  # Here the w specifies we want to write new c
 # In the above syntax if we give a instead of w then we can append that is insert the content at the end of the file instead of overwriting the file
 
 # Let's srore what we want to write into the file into a variable
-fcontents = f"I have written this into the file using my python program!"
+fcontents = f"I have written this content into {filename} using my python program!"
 # filename = input("Enter the file contents you would like to write into the file: ")  # uncomment if you want to give the file contents while running
 
 # Now since we have the file open and the contents ready, we can start writing onto it (Once our book is open we can start writing in the book)
