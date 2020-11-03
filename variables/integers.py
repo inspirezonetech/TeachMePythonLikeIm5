@@ -1,6 +1,6 @@
-# ------------------------------------------------------------------------------------
+# -----------------------------------------------------
 # Tutorial: An explanation of the int(integer) datatype
-# ------------------------------------------------------------------------------------
+# -----------------------------------------------------
 
 # In python, numbers without decimals are stored using the int datatype
 number1 = 10  # We can directly assign a number to a variable
@@ -11,16 +11,16 @@ print("Type of number1 is", type(number1))
 # We can also declare an integer using the int() function
 number2 = int(20)
 # We can see that the variable number2 is an integer too. This is called Static typed as we are giving the type
-print("Type of number2 is", type(number1))
+print("Type of number2 is", type(number2))
 
 # We can also convert from other datatype to integer using int()
 number3 = int("30")
 # Python converts the string to an integer.
-print("Type of number3 is", type(number1))
+print("Type of number3 is", type(number3))
 
 # Integers can hold negative numbers too
 number4 = -10
-print("Type of number4 is", type(number1))
+print("Type of number4 is", type(number4))
 
 
 # Operations on int
