@@ -16,6 +16,10 @@ try:
 
     # As we have read from the file we check out what's present in the file
     print(fcontents)
+
+    # It's always a good practice to close the file after we finish reading from the file
+    fread.close()
+
 except (EOFError, FileNotFoundError):
     print("File not found! Please check if the file exists in the same folder or provide the full path.")
 
