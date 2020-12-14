@@ -37,7 +37,7 @@ Each file contains:
 |How to declare a list                      | [declaring-lists.py](lists/declaring-lists.py)                 | 
 |How to index a list                        | [indexing-lists.py](lists/indexing-lists.py)                   | 
 | **Conditions**                            | 
-| How to make conditions                    | [if-else.py](conditions/if-else.py)                            |
+|How to make conditions                     | [if-else.py](conditions/if-else.py)                            |
 | **Loops**                                 | 
 |How for-loop works                         | [for-loops.py](loops/for-loops.py)                             |
 |How while-loop works                       | [while-loops.py](loops/while-loops.py)                         |
@@ -47,7 +47,7 @@ Each file contains:
 |How to declare and call functions          | [using-functions.py](functions/using-functions.py)             |  
 | **Common-built-in functions**             | 
 |How enumerate works                        | [enumerate.py](common-built-in-functions/enumerate.py)         |  
-|How inupt works                            | [input.py](common-built-in-functions/input.py)                 | 
+|How input works                            | [input.py](common-built-in-functions/input.py)                 | 
 |How join works                             | [join.py](common-built-in-functions/join.py)                   |
 |How len works                              | [len.py](common-built-in-functions/len.py)                     | 
 |How range works                            | [range.py](common-built-in-functions/range.py)                 | 
@@ -57,8 +57,14 @@ Each file contains:
 | **Using modules**                         | 
 |How modules work                           | [importing-modules.py](using-modules/importing-modules.py)     | 
 |How pip works                              | [installing-with-pip.py](using-modules/installing-with-pip.py) | 
+|How to create modules                      | [creating-modules.py](using-modules/creating-modules.py)       |
+|How to use virtual environments            | [using-virtual-environments.py](using-modules/using-virtual-environments.py)|
 | **File handling**                         | 
 |How to delete a file                       | [deleting-files.py](file-handling/deleting-files.py)           | 
 |How to read a file                         | [reading-files.py](file-handling/reading-files.py)             | 
 |How to scan a file                         | [scanning-files.py](file-handling/scanning-files.py)           | 
-|How to write a file                        | [writing-files.py](file-handling/writing-files.py)             | 
+|How to write a file                        | [writing-files.py](file-handling/writing-to-files.py)          | 
+| **Dictionaries**                          | 
+|How to iterate over a dictionary           | [iterating-over-dictionaries.py](dictionaries/iterating-over-dictionaries.py)|
+|Basic tutorial on dictionaries             | [using-dictionaries-basic.py](dictionaries/using-dictionaries-basic.py)      |
+|Advanced tutorial on dictionaries          | [using-dictionaries-advanced.py](dictionaries/using-dictionaries-advanced.py)|
