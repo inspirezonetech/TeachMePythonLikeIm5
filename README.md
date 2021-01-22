@@ -45,7 +45,7 @@ Each file contains:
 |How to continue in a loop                  | [using-continue.py](loops/using-continue.py)                   |
 | **Functions**                             | 
 |How to declare and call functions          | [using-functions.py](functions/using-functions.py)             |  
-| **Common-built-in functions**             | 
+| **Common built-in functions**             | 
 |How enumerate works                        | [enumerate.py](common-built-in-functions/enumerate.py)         |  
 |How input works                            | [input.py](common-built-in-functions/input.py)                 | 
 |How join works                             | [join.py](common-built-in-functions/join.py)                   |
