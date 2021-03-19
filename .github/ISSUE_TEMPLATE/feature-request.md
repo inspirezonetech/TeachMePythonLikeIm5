@@ -1,8 +1,8 @@
 ---
 name: Feature request
 about: Suggest an idea for this repo
-title: "[feature] Your title"
-labels: ''
+title: "Your title"
+labels: 'feature request'
 assignees: ''
 
 ---
