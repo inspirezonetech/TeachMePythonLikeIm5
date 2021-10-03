@@ -21,3 +21,36 @@ another_function('hello', 'universe')
 # Challenge: create a function that takes two integers as arguments and prints the sum.
 # call the function and pass the values '1' and '2' to the function
 # ------------------------------------------------------------------------------------
+
+# You code here
+#
+#
+#
+#
+# ...
+
+# ---------------------------------------------------
+# More on functions
+# ---------------------------------------------------
+
+# Functions can return something with the 'return' keyword.
+def biggestNumber(number1, number2):
+    maxnumber = max(number1, number2)  # The max built-in function returns the highest value of all those passed
+
+    return maxnumber
+
+# When calling the function, you can use the value returned
+oldestPerson = biggestNumber(15, 18)
+print("Oldest person:", oldestPerson)
+
+print(biggestNumber(100 * 0, 1 * 2))
+
+# -----------------------------------------------------------------------------------
+# Challenge: modify the previous function you created so it returns the value instead.
+# create another piece of code that uses the value returned from your function
+# ------------------------------------------------------------------------------------
+
+# Your code here
+#
+#
+# ...

@@ -47,6 +47,9 @@ def Boolean():
 
 Boolean()
 
+# any expression in Python is True or False
+print("Basic boolean:", 5 == 5, type(5 == 5))
+
 def Challenge(arg1, arg2, arg3):
     print("Challenge:")
     print(bool(arg1))
