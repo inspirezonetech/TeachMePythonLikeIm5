@@ -13,7 +13,7 @@ print(a == b)  # Here since a and b are equal we will get True in output.
 # 2. "!="(Not Equal) -> we use this operator to see if two variables are equal or not , if they are not equal it will return True else False.
 a = 5
 b = 5
-print(a == b)  # Here since a and b are equal we will get False in  output.
+print(a != b)  # Here since a and b are equal we will get False in  output.
 
 # 3. ">"(Greater than ) -> we use this operator to see if one variable is greater than other.
 a = 9
