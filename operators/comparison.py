@@ -15,7 +15,7 @@ a = 5
 b = 5
 print(a == b)  # Here since a and b are equal we will get False in  output.
 
-# 3. ">"(Greater than ) -> we use this operator to see if one variable is greater than other.  
+# 3. ">"(Greater than ) -> we use this operator to see if one variable is greater than other.
 a = 9
 b = 5
 print(a > b)  # Here since a is greater than b ,  we will get True in output.
@@ -25,12 +25,12 @@ a = 5
 b = 5
 print(a >= b)  # Here since a and b are equal,  we will get True in output.
 
-# 5. "<"(Less than ) -> we use this operator to see if one variable is less than other.  
+# 5. "<"(Less than ) -> we use this operator to see if one variable is less than other.
 a = 9
 b = 5
 print(a < b)  # Here since a is greater than b ,  we will get False in  output.
 
-# 6. "<="(Less than or equal to ) -> we use this operator to see if two variables are equal or one is less than the other.  
+# 6. "<="(Less than or equal to ) -> we use this operator to see if two variables are equal or one is less than the other.
 a = 3
 b = 5
 print(a <= b)  # Here since a is less than b ,  we will get True in output.
