@@ -39,6 +39,12 @@ print(a <= b)  # Here since a is less than b ,  we will get True in output.
 # Challenge for you :
 # ------------------------------------------------------------------------------------
 
-# Given a array of numbers . Traverse the array and find out if the number at ith position is less than , greater than or equal to 10.
+# Given a array of numbers .
+
+# Traverse the array and print following :
+# If the numberis less than 10 - print "The number is smaller than 10."
+# If the number is greater than 10 - print "The number is greater than 10."
+# If the number is equal t0 10 - print "The number is equal to 10."
+# The array nums is given below . 
 nums = [1, 3, 10, -7, 8]
 # write your code here
