@@ -3,10 +3,10 @@
 #  A recursive function is a function that calls itself
 # ------------------------------------------------------------------------------------
 import sys
-import StringIO
+from io import StringIO
 
 oldstdin = sys.stdin
-sys.stdin = StringIO.StringIO('10')
+sys.stdin = StringIO('10')
 
 # find the factorial of a user entered number
 # the 'def' keyword is used to declare a function. the structure of a function is:
@@ -26,3 +26,4 @@ else:
 # -----------------------------------------------------------------------------------
 # Challenge: create a recursive function that makes a countdown from a user entered number till zero
 # ------------------------------------------------------------------------------------
+assert fact(num)==3628800
