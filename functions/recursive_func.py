@@ -2,6 +2,11 @@
 # Tutorial: How to make a recursive function
 #  A recursive function is a function that calls itself
 # ------------------------------------------------------------------------------------
+import sys
+import StringIO
+
+oldstdin = sys.stdin
+sys.stdin = StringIO.StringIO('10')
 
 # find the factorial of a user entered number
 # the 'def' keyword is used to declare a function. the structure of a function is:
