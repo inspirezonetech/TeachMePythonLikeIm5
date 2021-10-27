@@ -26,4 +26,4 @@ else:
 # -----------------------------------------------------------------------------------
 # Challenge: create a recursive function that makes a countdown from a user entered number till zero
 # ------------------------------------------------------------------------------------
-assert fact(num)==3628800
+assert fact(num) == 3628800
