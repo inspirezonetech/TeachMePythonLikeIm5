@@ -5,7 +5,7 @@
 # ------------------------------------------------------------------------------------
 
 # # Syntax of f-strings:
-# We start the string with the keyword f, followed by our string in double quotes and {} is used as a placeholders for the values involved in the formatting.
+# We start the string with the keyword f, followed by our string in double quotes and {} is used as a placeholder for the values involved in the formatting.
 
 
 # The following example makes it clearer:
