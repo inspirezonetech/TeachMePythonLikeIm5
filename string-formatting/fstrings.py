@@ -30,6 +30,15 @@ msg = (
 )
 print(msg)
 
+
+# You can also write a multi-lines f-string with double quotes like docstrings:
+msg_two = f"""
+Name: {name}
+Age: {age}
+Occupation: {occupation}
+"""
+print(msg_two)
+
 # Output:
 # Name: John
 # Age: 32
