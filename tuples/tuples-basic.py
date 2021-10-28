@@ -23,7 +23,8 @@ empty_tuple = ()
 tuple_with_one_item = ("one",)
 
 # Just like a list, can count how many items a tuple has by using len():
-print(len(my_tuple))  # Prints 3
+print(len(my_tuple))
+# Output: 3
 
 # When you unpack multiple items to one variable, Python actually creates a tuple
 # behind-the-scenes.
