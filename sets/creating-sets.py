@@ -39,7 +39,7 @@ my_set = set(["ice-cream", "burgar", "french-fries", "burgar"])
 print(my_set)
 
 # ------------------------------------------------------------------------------------
-# Challenge: 
+# Challenge:
 # 1. Create a set of numbers from 1 to 10 and print it.
 # 2. Set cannot have duplicates - Create a set with duplicate values and print it. Observe the difference in output.
 # ------------------------------------------------------------------------------------
