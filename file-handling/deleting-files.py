@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------------------------
 #    Tutorial: Receives a file name from a user and deletes it
 # ------------------------------------------------------------------------------------
-
+#
 import os
 
 def delete_file(filename):
@@ -9,7 +9,7 @@ def delete_file(filename):
         os.remove(filename)  # deletes filename
         print(f'{filename} has been deleted')  # prints out success message
     except OSError:
-        print('No such file in directory!')  # prints error message when file not found
+        print('Error')  # prints error message when file not found
 
 def main():
     filename = None
