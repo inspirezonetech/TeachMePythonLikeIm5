@@ -20,9 +20,9 @@ last_item = my_tuple2[-1]
 empty_tuple = ()
 # But interestingly, to define a tuple that consists of one item,
 # you don't write parentheses. Instead, you just add a trailing comma.
-tuple_with_one_item = ("one",)
+tuple_with_one_item = "one",
 
-# Just like a list, can count how many items a tuple has by using len():
+# Just like a list, you can count how many items a tuple has by using len():
 print(len(my_tuple))
 # Output: 3
 
