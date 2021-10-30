@@ -23,7 +23,6 @@ while i < len(my_list):
 # for loop without body then we'll get error. 
 
 
-
 # ------------------------------------------------------------------------------------
 # Challenge: Create a function that asks user whether he/she uses github or not, if no then print the steps to make github account 
 # and if yes then just pass it and print "that's good" outside the body of else block but inside the function.
