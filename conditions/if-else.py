@@ -35,8 +35,8 @@ else:
     print("Can join army!")
 
 # ------------------------------------------------------------------------------------
-# Challenge: Using your knowlege of operations, write two conditions where it
-# says "replace-me" to check if your car is going bellow speed limit and above
+# Challenge: Using your knowlege of operators, write two conditions where it
+# says "replace-me", to check if your car is going bellow speed limit and above
 # the minuimn speed for the street.
 # ------------------------------------------------------------------------------------
 
