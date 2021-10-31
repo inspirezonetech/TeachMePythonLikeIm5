@@ -21,7 +21,7 @@ age = 13
 if age >= 12:
     print("Yes, you can play that game.")
 else:
-    print("Lets find a better game to you.")
+    print("Lets find a better game for you.")
 
 
 # We can also use elif do a chain of conditions
@@ -35,9 +35,9 @@ else:
     print("Can join army!")
 
 # ------------------------------------------------------------------------------------
-# Challenge: Using your knowlege of operators, write two conditions where it
-# says "replace-me", to check if your car is going bellow speed limit and above
-# the minuimn speed for the street.
+# Challenge: Using your knowledge of operators, write two conditions where it
+# says "replace-me", to check if your car is going below speed limit and above
+# the minimum speed for the street.
 # ------------------------------------------------------------------------------------
 
 street_max_speed = 100
