@@ -24,7 +24,6 @@ while i < len(my_list):
 
 
 # ------------------------------------------------------------------------------------
-# Challenge: Create a function that asks user whether he/she uses github or not, if no then print the steps to make github account
-# and if yes then just pass it and print "that's good" outside the body of else block but inside the function.
-# Then call that function exactly 3 times using a for loop.
+# Challenge: Create a loop with fruits and number, if it's a fruit print it, and if it's a number pass it.
+# note : use typeof to make the condition
 # ------------------------------------------------------------------------------------
