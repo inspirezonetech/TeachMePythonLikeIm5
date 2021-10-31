@@ -13,7 +13,7 @@ def timer(func):
         # calling func passed in the timer function.
         func(*args, **kwargs)
         # displaying the time it takes to completely run the func.
-        print("Function took : ", time.time()-start_time, "seconds.")
+        print("Function took : ", time.time() - start_time, "seconds.")
     # returning the wrapper function.
     return wrapper
 
