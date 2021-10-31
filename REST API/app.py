@@ -17,6 +17,3 @@ if __name__ == "__main__":
 # Challenge: Create your own Student API having attributes like name, rollno, class etc.
 # and add all the http methods explained.
 # ------------------------------------------------------------------------------------
-
-
-

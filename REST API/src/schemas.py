@@ -2,7 +2,7 @@ from typing import Optional
 from datetime import date
 from pydantic import BaseModel
 
-#Base class with comman attributes
+# Base class with comman attributes
 class ProfileBase(BaseModel):
     name: str
     dob: date
@@ -43,3 +43,4 @@ class ProfileActivate(BaseModel):
 
     class Config:
         orm_mode = True
+        

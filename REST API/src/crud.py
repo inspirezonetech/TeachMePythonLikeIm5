@@ -1,5 +1,4 @@
 from sqlalchemy.orm import Session
-from typing import Optional
 from . import models, schemas
 
 # to get profile by id.
@@ -50,3 +49,4 @@ def delete_profile(db: Session, db_profile):
     db.delete(db_profile)
     db.commit()
     return {"message": "Profile successfully deleted!"}
+    

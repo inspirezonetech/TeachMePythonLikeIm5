@@ -22,3 +22,4 @@ class Profile(Base):
 
     # status is stored as String which can accept value either ACTIVE or PAUSED.
     status = Column(String(6), index=True)
+    
