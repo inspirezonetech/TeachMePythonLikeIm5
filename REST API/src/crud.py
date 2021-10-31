@@ -49,4 +49,3 @@ def delete_profile(db: Session, db_profile):
     db.delete(db_profile)
     db.commit()
     return {"message": "Profile successfully deleted!"}
-    
