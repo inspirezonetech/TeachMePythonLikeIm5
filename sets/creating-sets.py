@@ -19,7 +19,7 @@ print(my_set)
 # set cannot have mutable items
 # here [3, 4] is a mutable list
 # this will cause an error.
-# my_set = {1, 2, [3, 4]} uncomment this line to see the error
+# my_set = {1, 2, [3, 4]} # uncomment this line to see the error
 
 # Distinguish set and dictionary while creating empty set
 # initialize a with {}
