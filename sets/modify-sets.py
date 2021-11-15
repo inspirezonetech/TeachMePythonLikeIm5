@@ -4,7 +4,7 @@
 # We cannot access or change an element of a set using indexing or slicing. Set data type does not support it.
 # ------------------------------------------------------------------------------------
 
-# We can add a single element using the add() method, and multiple elements using the update() method. 
+# We can add a single element using the add() method, and multiple elements using the update() method.
 # The update() method can take tuples, lists, strings or other sets as its argument. In all cases, duplicates are avoided.
 
 # initialize a
