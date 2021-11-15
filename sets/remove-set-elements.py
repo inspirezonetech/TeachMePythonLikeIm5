@@ -3,7 +3,7 @@
 # A particular item can be removed from a set using the methods discard() and remove().
 # ------------------------------------------------------------------------------------
 
-# The only difference between the two is that the discard() function leaves a set unchanged if the element is not present in the set. 
+# The only difference between the two is that the discard() function leaves a set unchanged if the element is not present in the set.
 # On the other hand, the remove() function will raise an error in such a condition (if element is not present in the set).
 
 # Difference between discard() and remove()
