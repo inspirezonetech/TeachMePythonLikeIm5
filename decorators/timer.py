@@ -28,5 +28,5 @@ def run():
 run()
 
 # ------------------------------------------------------------------------------------
-# Challenge: Create a decorator to wrap a function which logs the function call with the timestamp when it is called.
+# Challenge: Create a decorator to wrap a function and print "START" before the function call and print "END" after the function executes successfully.
 # ------------------------------------------------------------------------------------
