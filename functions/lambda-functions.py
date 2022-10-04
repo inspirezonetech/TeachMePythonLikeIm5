@@ -27,7 +27,7 @@ print(sumup)
 (lambda x: print(x))("Great Work!")
 
 # Usage with If-Else
-minimum = (lambda a, b: a if(a < b) else b)(10, 100)
+minimum = (lambda a, b: a if (a < b) else b)(10, 100)
 print(minimum)
 
 
