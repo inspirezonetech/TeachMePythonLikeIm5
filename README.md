@@ -79,3 +79,5 @@ Each file contains:
 |How to create a set                        | [creating-sets.py](sets/creating-sets.py)                       |
 |How to modify a set                        | [modify-sets.py](sets/modify-sets.py)                           |
 |How to remove set elements                 | [remove-set-elements.py](sets/remove-set-elements.py)           |
+| **String formatting**                     | 
+|How to use f-strings                       | [fstrings.py)](string-formatting/fstrings.py)                   |
