@@ -74,4 +74,8 @@ Each file contains:
 |Basic tutorial on dictionaries             | [using-dictionaries-basic.py](dictionaries/using-dictionaries-basic.py)      |
 |Advanced tutorial on dictionaries          | [using-dictionaries-advanced.py](dictionaries/using-dictionaries-advanced.py)|
 | **Decorators**                            | 
-|How to use decorator                       | [timer.py](decorators/timer.py)                                |
+|How to use decorator                       | [timer.py](decorators/timer.py)                                 |
+| **Sets**                                  | 
+|How to create a set                        | [creating-sets.py](sets/creating-sets.py)                       |
+|How to modify a set                        | [modify-sets.py](sets/modify-sets.py)                           |
+|How to remove set elements                 | [remove-set-elements.py](sets/remove-set-elements.py)           |
