@@ -45,6 +45,7 @@ Each file contains:
 |How while-loop works                       | [while-loops.py](loops/while-loops.py)                         |
 |How to break in a loop                     | [using-break.py](loops/using-break.py)                         | 
 |How to continue in a loop                  | [using-continue.py](loops/using-continue.py)                   |
+|How to pass in a loop                      | [using-pass.py](loops/using-pass.py)                   |
 | **Functions**                             | 
 |How to declare and call functions          | [using-functions.py](functions/using-functions.py)             |  
 | **Common built-in functions**             | 
