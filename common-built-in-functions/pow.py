@@ -5,8 +5,9 @@
 # Code here explaining concept with comments to guide
 
 
-#Return base to the power exp; if mod is present, return base to the power exp, modulo mod (computed more efficiently than pow(base, exp) % mod). 
-#The two-argument form pow(base, exp) is equivalent to using the power operator: base**exp.
+# Pow is a function which takes 2 arguments (numbers) : base and exp. There is also an optional parameter called mod.
+# It return base to the power exp; if the parameter mod is present, it return base to the power exp, modulo mod (computed more efficiently than pow(base, exp) % mod). 
+# The two-argument form pow(base, exp) is equivalent to using the power operator: base**exp.
 
 # Syntax:
 
