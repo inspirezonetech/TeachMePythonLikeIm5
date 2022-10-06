@@ -15,14 +15,14 @@ print(for_loop_squares)  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 
 
 # With list comprehension you can do the exact same thing in one line.
-# the syntax is : 
+# the syntax is:
 # new_list = [expression for member in iterable]
 comprehension_squares = [x * x for x in range(10)]
 
 print(comprehension_squares)  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 
 
-# You can even add conditionals to the list comprehension, the condition is place at the end of the list comprehension, just like that :
+# You can even add conditionals to the list comprehension, the condition is place at the end of the list comprehension, just like that:
 # new_list = [expression for member in iterable if condition]
 comprehension_even_squares_numbers = [x * x for x in range(10) if x % 2 == 0]
 
