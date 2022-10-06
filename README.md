@@ -46,8 +46,11 @@ Each file contains:
 |How while-loop works                       | [while-loops.py](loops/while-loops.py)                         |
 |How to break in a loop                     | [using-break.py](loops/using-break.py)                         | 
 |How to continue in a loop                  | [using-continue.py](loops/using-continue.py)                   |
+|How to pass in a loop                      | [using-pass.py](loops/using-pass.py)                           |
 | **Functions**                             | 
-|How to declare and call functions          | [using-functions.py](functions/using-functions.py)             |  
+|How to declare and call functions          | [using-functions.py](functions/using-functions.py)             |
+|How to make a recursive functions          | [recursive_func.py](functions/recursive_func.py)               |
+|How to make a lambda functions             | [lambda-functions.py](functions/lambda-functions.py)           |
 | **Common built-in functions**             | 
 |How enumerate works                        | [enumerate.py](common-built-in-functions/enumerate.py)         |  
 |How input works                            | [input.py](common-built-in-functions/input.py)                 | 
@@ -71,3 +74,13 @@ Each file contains:
 |How to iterate over a dictionary           | [iterating-over-dictionaries.py](dictionaries/iterating-over-dictionaries.py)|
 |Basic tutorial on dictionaries             | [using-dictionaries-basic.py](dictionaries/using-dictionaries-basic.py)      |
 |Advanced tutorial on dictionaries          | [using-dictionaries-advanced.py](dictionaries/using-dictionaries-advanced.py)|
+| **Decorators**                            | 
+|How to use decorator                       | [timer.py](decorators/timer.py)                                 |
+| **Sets**                                  | 
+|How to create a set                        | [creating-sets.py](sets/creating-sets.py)                       |
+|How to modify a set                        | [modify-sets.py](sets/modify-sets.py)                           |
+|How to remove set elements                 | [remove-set-elements.py](sets/remove-set-elements.py)           |
+| **String formatting**                     | 
+|How to use f-strings                       | [fstrings.py](string-formatting/fstrings.py)                    |
+| **Tuples**                                | 
+|Basic tuples                               | [tuples-basic.py](tuples/tuples-basic.py)                       |
