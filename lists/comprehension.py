@@ -29,7 +29,7 @@ comprehension_even_squares_numbers = [x * x for x in range(10) if x % 2 == 0]
 print(comprehension_even_squares_numbers)  # [0, 4, 16, 36, 64]
 
 
-# But if you can do if/else logic, you need to do:
+# But if you can do if/else logic, you need to place the condition before the for loop just like that:
 comprehension_even_squares_numbers_and_odd_numbers_is_zero = [x * x if x % 2 == 0 else 0 for x in range(10)]
 
 print(comprehension_even_squares_numbers_and_odd_numbers_is_zero)  # [0, 0, 4, 0, 16, 0, 36, 0, 64, 0]
