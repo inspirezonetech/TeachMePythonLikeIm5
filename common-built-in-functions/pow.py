@@ -16,7 +16,7 @@ b = 3
 
 a_power_b = pow(a, b) # should return 5^3 which is 125
 
-print(apowerb) # 125
+print(a_power_b) # 125
 
 bpowera = pow(b, a) # should return 3^5 which is 243
 
