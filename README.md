@@ -38,6 +38,7 @@ Each file contains:
 |How to alter a list                        | [alterning-lists.py](lists/altering-lists.py)                  | 
 |How to declare a list                      | [declaring-lists.py](lists/declaring-lists.py)                 | 
 |How to index a list                        | [indexing-lists.py](lists/indexing-lists.py)                   | 
+|List comprehension                              | [list-comprehension.py](lists/list-comprehension.py)                |
 | **Conditions**                            | 
 |How to make conditions                     | [if-else.py](conditions/if-else.py)                            |
 | **Loops**                                 | 
