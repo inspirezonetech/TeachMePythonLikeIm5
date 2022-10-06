@@ -14,7 +14,9 @@ for i in range(10):
 print(for_loop_squares)  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 
 
-# With list comprehension you can do the exact same thing:
+# With list comprehension you can do the exact same thing in one line.
+# the syntax is : 
+# new_list = [expression for member in iterable]
 comprehension_squares = [x * x for x in range(10)]
 
 print(comprehension_squares)  # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
