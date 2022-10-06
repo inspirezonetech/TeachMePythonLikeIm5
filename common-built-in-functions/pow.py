@@ -14,7 +14,7 @@ a = 5
 
 b = 3
 
-apowerb = pow(a, b) # should return 5^3 which is 125
+a_power_b = pow(a, b) # should return 5^3 which is 125
 
 print(apowerb) # 125
 
