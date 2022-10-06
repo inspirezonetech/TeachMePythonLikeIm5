@@ -49,5 +49,5 @@ print(comprehension_even_squares_numbers_and_odd_numbers_is_zero)  # [0, 0, 4, 0
 # Challenge: FIZZBUZZ
 # Create a list comprehesion that returns the numbers from 0 to 100 but:
 #   1 -. if the number is divisible by 3 and 5, append to the list the word "FizzBuzz"
-#   3 -. else, append to the list the number
+#   2 -. else, append to the list the number
 # ------------------------------------------------------------------------------------
