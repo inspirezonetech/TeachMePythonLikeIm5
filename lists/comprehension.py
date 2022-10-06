@@ -35,7 +35,7 @@ comprehension_even_squares_numbers_and_odd_numbers_is_zero = [x * x if x % 2 == 
 print(comprehension_even_squares_numbers_and_odd_numbers_is_zero)  # [0, 0, 4, 0, 16, 0, 36, 0, 64, 0]
 
 
-# As you can see, the basic format of a list comprehension is like:
+# We can summarize the 3 formats of list comprehension. The basic format of a list comprehension is like:
 # new_list = [expression for member in iterable]
 
 # With only one condition
