@@ -5,7 +5,8 @@
 # Here I'll show you how to create a datframe with three columns using a list of lists.
 # Remember a list is created using square brackets []. So list of lists is different lists all wraped in a square bracket i.e. [['Sophie'], ['Jade']]
 
-# Firstly, import pandas as pd
+# Firstly, pip install pandas before importing pandas as pd
+pip install pandas
 import pandas as pd
 # Creating a list of lists with two strings and an integer each
 list = [['Purple Hibiscus', 'Chimamanda', 2001], ['Things Fall Apart', 'Chinua', 1980]]
