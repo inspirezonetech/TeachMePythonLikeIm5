@@ -12,11 +12,17 @@
 # frame is like a container which contains other widgets in it
 # by which we can divide our window in parts and make changes to each one independently
 # for simple learning first move to code, analyze how it works then you will get clear idea
+import tkinter
 from tkinter import Tk
 from tkinter import Frame
 from tkinter import Button
+import sys
+import os
+if os.environ.get('DISPLAY','') == '':
+    print('no display found. Using :0.0')
+    os.environ.__setitem__('DISPLAY', ':0.0')
 
-main = Tk()
+main = Tkinter.Tk()
 main.geometry("400x400")
 # frame_widget = Frame(parent_window, attributes...)
 frame_widget = Frame(main)  # read about its syntax also

@@ -9,16 +9,24 @@
 # Firstly, we would start with how to create a simple tkinter window
 
 # importing modules first
+import tkinter
 from tkinter import Tk
+import sys
+import os
+
+if os.environ.get('DISPLAY','') == '':
+    print('no display found. Using :0.0')
+    os.environ.__setitem__('DISPLAY', ':0.0')
+
 # from tkinter import Frame
 
-root = Tk()     # for versions earlier than python3 , t is in small case in Tk i.e. tk()
+root = tkinter.Tk()     # for versions earlier than python3 , t is in small case in Tk i.e. tk()
 root.mainloop()  # mainloop is our ending line for any tkinter window, without it the application will not run
 
 # NOW Time to do some basic config with our window. Like you can give Title and, dimensions to it,
 # can make it resizable upto some limit or even fix the size
 
-main = Tk()
+main = Tkinter.Tk()
 main.title("resizing window")
 # .geometry("widthxheight")
 main.geometry("500x400")   # the window will be having this size when program starts
