@@ -6,8 +6,6 @@
 # Remember a list is created using square brackets []. So list of lists is different lists all wraped in a square bracket i.e. [['Sophie'], ['Jade']]
 
 # Firstly, import pandas as pd
-name: Install Python dependencies
-run: python -m pip install --upgrade pip pandas
 import pandas as pd
 # Creating a list of lists with two strings and an integer each
 list = [['Purple Hibiscus', 'Chimamanda', 2001], ['Things Fall Apart', 'Chinua', 1980]]
