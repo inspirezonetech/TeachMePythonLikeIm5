@@ -4,7 +4,8 @@
 # Think of a dataframe as an excel spreadsheet. All it is is a two-dimensional structure consisting of rows and columns.
 # Here I'll show you how to create a datframe with three columns using a list of lists.
 # Remember a list is created using square brackets []. So list of lists is different lists all wraped in a square bracket i.e. [['Sophie'], ['Jade']]
-# PS: anywhere you see a step, remove the hashtag for the code to run. This does not include step 2!
+# PS: anywhere you see a step, remove the hashtag before the code and remove everything in the bracket (). This does not include step 2!
+# e.g. in your practice, copy only "import pandas as pd" not "# import pandas as pd (step 1)"
 
 # Firstly, import pandas as pd
 # import pandas as pd (step 1)
