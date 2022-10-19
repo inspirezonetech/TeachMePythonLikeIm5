@@ -10,11 +10,11 @@
 
 # importing modules first
 import tkinter
-from tkinter import Tk
-import sys
+# from tkinter import Tk
+# import sys
 import os
 
-if os.environ.get('DISPLAY','') == '':
+if os.environ.get('DISPLAY', '') == '':
     print('no display found. Using :0.0')
     os.environ.__setitem__('DISPLAY', ':0.0')
 
@@ -26,7 +26,7 @@ root.mainloop()  # mainloop is our ending line for any tkinter window, without i
 # NOW Time to do some basic config with our window. Like you can give Title and, dimensions to it,
 # can make it resizable upto some limit or even fix the size
 
-main = Tkinter.Tk()
+main = tkinter.Tk()
 main.title("resizing window")
 # .geometry("widthxheight")
 main.geometry("500x400")   # the window will be having this size when program starts
