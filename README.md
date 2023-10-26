@@ -7,7 +7,7 @@
 
 *You are welcome to contribute to this repo. See the [**CONTRIBUTING.md**](./CONTRIBUTING.md) for more info*
 
-<img src="https://inspirezone.tech/wp-content/uploads/2022/10/Accepting-Contributions-for-Hacktoberfest2022.png" width="300">
+<img src="https://inspirezone.tech/wp-content/uploads/2023/10/hacktoberfest-2023-logo.png" width="300">
 
 ![TeachMePythonLikeIm5](https://inspirezone.tech/wp-content/uploads/2020/10/TeachMePythonLikeIm5-1024x512.png)
 ## About this repo
