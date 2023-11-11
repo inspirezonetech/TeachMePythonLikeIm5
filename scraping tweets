@@ -1,0 +1,20 @@
+
+
+# ------------------------------------------------------------------------------------
+# Tutorial: How to scrape tweets in Python
+# There's different packages that can be used to scrape Twitter data including tweepy, twython, twint, e.t.c
+# Here we will focus on tweepy
+# ------------------------------------------------------------------------------------
+
+# First you need to create a twitter developer account to get four keys: consumer key, consumer secret, access token and access token secret
+
+# import tweepy as step 1
+# posts = api.user_timeline(screen_name = "@user", count = 7, lang ="en", tweet_mode="extended") as step 2 which is to collect tweets from a specific user account
+# print("Show the 100 recent tweets: \n") as step 3 which is to print the last 100 tweets from the account
+# for tweet in posts[0:100]: as step 4
+# print(tweet.full_text + '\n') as step 5
+
+
+# ------------------------------------------------------------------------------------
+# Challenge: Print the last 10 tweets from your twitter account
+# ------------------------------------------------------------------------------------
